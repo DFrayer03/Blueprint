@@ -1,67 +1,70 @@
-body{
-    width: 100vw;
-    height: 100vh;
-    background-color: #23153c;
-}
-
-#body-content{
+.body-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
-    width: 100%;
-}
-.title{
-    font-size: 60px;
-    letter-spacing: 1px;
-    padding: 50px;
-    text-align: center;
+    padding: 30px;
 }
 
-.sequence-input{
-    width: 100%;
+.title {
+    font-size: 60px;
+    letter-spacing: 1px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Monospace";
+}
+
+.subtitle {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "Monospace";
+    padding: 5px;
+}
+
+.sequence-input {
+    width: 60%;
     font-size: 25px;
     outline: none;
     text-align: center;
     font-family: "Monospace";
-    font: "Lucida Console";
     padding: 10px;
     border: none;
-    border-radius: 40px;
+    border-radius: 25px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
-.button-container{
+.center {
+    align-items: center;
+}
+
+.button-container {
     display: flex;
     flex-direction: row;
     margin-top: 15px;
+
 }
 
-.to-rna{
+.to-rna {
     background-color: #3AAFA9;
-    padding: 15px;
+    padding: 17px 25px;
     color: #17252A;
-    border-radius: 75px;
-    margin-right: 10px;
-    margin-left: 10px;
+    border-radius: 25px;
+    margin-right: 8px;
 }
 
-.to-dna{
+.to-dna {
     background-color: #3AAFA9;
-    padding: 15px;
+    padding: 17px 25px;
     color: #17252A;
-    border-radius: 75px;
-    margin-right: 10px;
-    margin-left: 10px;
+    border-radius: 25px;
+    margin-right: 8px;
+    margin-left: 8px;
 }
 
-.to-amino{
+.to-amino {
     background-color: #3AAFA9;
-    padding: 15px;
+    padding: 17px 21px;
     color: #17252A;
-    border-radius: 75px;
-    margin-right: 10px;
-    margin-left: 10px;
-
+    margin-left: 8px;
+    border-radius: 25px;
 }
-
