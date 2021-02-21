@@ -20,7 +20,7 @@ body{
     padding: 20px;
     text-align: center;
     font-family: "Monospace";
-    color: #708090;
+    color: floralwhite;
     margin-top: 50px;
 }
 
@@ -30,7 +30,7 @@ body{
     text-align: center;
     font-family: "Monospace";
     padding: 5px;
-    color: #708090;
+    color: floralwhite;
 }
 
 .sequence-input {
@@ -59,7 +59,7 @@ body{
 .to-rna {
     background-color: #ffffff;
     padding: 17px 25px;
-    color: #708090;
+    color: #17252A;
     border-radius: 25px;
     margin-right: 8px;
 }
@@ -67,7 +67,7 @@ body{
 .to-dna {
     background-color: #ffffff;
     padding: 17px 25px;
-    color: #708090;
+    color: #17252A;
     border-radius: 25px;
     margin-right: 8px;
     margin-left: 8px;
@@ -76,7 +76,7 @@ body{
 .to-amino {
     background-color: #ffffff;
     padding: 17px 21px;
-    color: #708090;
+    color: #17252A;
     margin-left: 8px;
     border-radius: 25px;
 }
