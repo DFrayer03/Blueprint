@@ -1,7 +1,7 @@
  function translateRNA() {
      const dna = document.querySelector("#sequence").value;
    let rna = ""
-     for(let index = 0; index < index.length; index++)
+     for(let index = 0; index < rna.length; index++)
     {
         if(dna[index] === "A")
         {
