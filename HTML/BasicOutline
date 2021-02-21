@@ -63,7 +63,7 @@
             <button class="to-amino" onclick="translateAmino()">To Amino Acid</button>
         </div>
 
-        <script src="index.js"></script>
+        <script src="InputSequence.js"></script>
         <script src="min.js"></script>
         <script src="net.js"></script>
         <script>
