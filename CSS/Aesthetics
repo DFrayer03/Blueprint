@@ -24,7 +24,7 @@ body{
     outline: none;
     text-align: center;
     font-family: "Monospace";
-    font-name: "Lucida Console";
+    font: "Lucida Console";
     padding: 10px;
     border: none;
     border-radius: 40px;
