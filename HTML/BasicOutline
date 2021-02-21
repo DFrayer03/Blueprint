@@ -55,29 +55,35 @@
     <div class="subtitle">
         <h3>Translate your DNA or RNA into any form.</h3>
     </div>
-    <div class="input-button">
+    <div style="text-align: center"> 
         <input class="sequence-input" id="sequence" />
-        <div class="button-container">
+    </div>
+
+
+    <div class="button-container">
+ 
             <button class="to-rna" onclick="validateInput()">To RNA</button>
             <button class="to-dna" onclick="validateInput()">To DNA</button>
             <button class="to-amino" onclick="validateInput()">To Amino Acid</button>
-        </div>
 
-        <script src="InputSequence.js"></script>
-        <script src="min.js"></script>
-        <script src="net.js"></script>
-        <script>
-            VANTA.NET({
-                el: "#body-content",
-                mouseControls: true,
-                touchControls: true,
-                gyroControls: false,
-                minHeight: 200.00,
-                minWidth: 200.00,
-                scale: 1.00,
-                scaleMobile: 1.00
-            })
-        </script>
+
+    </div>
+
+    <script src="InputSequence.js"></script>
+    <script src="min.js"></script>
+    <script src="net.js"></script>
+    <script>
+        VANTA.NET({
+            el: "#body-content",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00
+        })
+    </script>
 </body>
 
 </html>
