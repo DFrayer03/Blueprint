@@ -185,6 +185,29 @@ function validateInput () {
 
 
 function GetAmino () { 
+const name = document.querySelector("#sequence").value;
+     let valid = false
+     let count = 0
+     loop1:
+     while(valid === false)
+     {
+         count = 0;
+         for (let index = 0; index < name.length; index++) {
+            if(name[index] === "A" || name[index] === "C" || name[index] === "T" || name[index] === "G" || name[index] === "a" || name[index] === "c" || name[index] === "t" || name[index] === "g" )
+             {
+                count++
+              if(count === name.length)
+                {
+                 valid = true
+                }
+             }
+             else{
+                 alert("You have entered an incompatible sequence for the translator. Please try using A, C, T, or G!")
+                 break loop1;
+             }
+            
+         }
+     }
  const string = document.querySelector("#sequence").value;
     let amino = ""
  let seq = string.toLowerCase()
