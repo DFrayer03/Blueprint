@@ -9,7 +9,7 @@
     letter-spacing: 1px;
     padding: 50px;
     text-align: center;
-    font-family: "Monospace";
+    font-family: "Lucida Console", "Courier New", monospace;
 
 }
 
@@ -18,7 +18,7 @@
     font-size: 25px;
     outline: none;
     text-align: center;
-    font-family: "Monospace";
+    font-family: "Lucida Console", "Courier New", monospace;
     padding: 17px;
     border: none;
     border-radius: 30px;
