@@ -9,14 +9,15 @@ function validateInput () {
             if(name[index] === ("A") || name[index] === "C" || name[index] === "T" || name[index] === "G" )
             {
                count++
+             if(count === name.length)
+               {
+                valid = true
+               }
             }
             else{
                 alert("You have entered an incorrect letter. Please try again!")
             }
-            if(count === name.length)
-            {
-                valid = true
-            }
+           
         }
     }
 }
