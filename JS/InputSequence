@@ -7,7 +7,7 @@ function validateInput () {
     {
         count = 0;
         for (let index = 0; index < name.length; index++) {
-            if(name[index] === ("A") || name[index] === "C" || name[index] === "T" || name[index] === "G" )
+            if(name[index] === "A" || name[index] === "C" || name[index] === "T" || name[index] === "G" || name[index] === "a" || name[index] === "c" || name[index] === "t" || name[index] === "g" )
             {
                count++
              if(count === name.length)
