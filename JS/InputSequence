@@ -2,7 +2,7 @@ function validateInput () {
    const name = document.querySelector("#sequence").value;
     let valid = false
     let count = 0
-    loop1;
+    loop1:
     while(valid === false)
     {
         count = 0;
