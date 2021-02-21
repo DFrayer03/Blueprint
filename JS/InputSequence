@@ -15,7 +15,7 @@ function validateInput () {
                }
             }
             else{
-                alert("You have entered an incorrect letter. Please try again!")
+                alert("You have entered an incompatible sequence. Please try again!")
             }
            
         }
