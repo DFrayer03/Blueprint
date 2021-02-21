@@ -20,7 +20,7 @@ body{
     padding: 20px;
     text-align: center;
     font-family: "Monospace";
-    color: floralwhite;
+    color: #ff3f81;
 }
 
 .subtitle {
@@ -29,7 +29,7 @@ body{
     text-align: center;
     font-family: "Monospace";
     padding: 5px;
-    color: floralwhite;
+    color: #ff3f81;
 }
 
 .sequence-input {
@@ -56,7 +56,7 @@ body{
 }
 
 .to-rna {
-    background-color: #ffffff;
+    background-color: #ff3f81;
     padding: 17px 25px;
     color: #17252A;
     border-radius: 25px;
@@ -69,10 +69,11 @@ body{
     border-radius: 25px;
     margin-right: 8px;
     margin-left: 8px;
+    background-color: #ff3f81;
 }
 
 .to-amino {
-    background-color: #ffffff;
+    background-color: #ff3f81;
     padding: 17px 21px;
     color: #17252A;
     margin-left: 8px;
