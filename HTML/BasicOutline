@@ -10,12 +10,13 @@
 
     <div class="body-content">
         <div class="title">DNA Translator</div>
+        <div class="subtitle"><h3>Translate your DNA or RNA into any form.</h3></div>
         <div class="input-button">
             <input class="sequence-input" id="sequence" />
             <div class="button-container">
-                <button class="to-rna" onclick="translateRNA()">To RNA</button>
-                <button class="to-dna" onclick="translateDNA()">To DNA</button>
-                <button class="to-amino" onclick="translateAmino()">To Amino Acid</button>
+                <button class="to-rna" onclick="validateInput()" onclick="translateRNA()">To RNA</button>
+                <button class="to-dna" onclick="validateInput()" onclick="translateDNA()">To DNA</button>
+                <button class="to-amino" onclick="validateInput()" onclick="translateAmino()">To Amino Acid</button>
             </div>
 
 </body>
