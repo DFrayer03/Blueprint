@@ -1,0 +1,40 @@
+function translateDNA() {
+    const dna = document.querySelector("#sequence").value;
+  let dnaNew = ""
+    for(let index = 0; index < index.length; index++)
+   {
+       if(dna[index] === "A")
+       {
+           dnaNew += "T"
+       }
+       if(dna[index] === "C")
+       {
+           dnaNew += "G" 
+       }
+       if(dna[index] === "T")
+       {
+           dnaNew += "A"
+       }
+       if(dna[index] === "G")
+       {
+           dnaNew += "C"
+       }
+       if(dna[index] === "a")
+       {
+           dnaNew += "t"
+       }
+       if(dna[index] === "c")
+       {
+           dnaNew += "g"
+       }
+       if(dna[index] === "a")
+       {
+           dnaNew += "t"
+       }
+       if(dna[index] === "g")
+       {
+           dnaNew += "c"
+       }
+   }
+   return dnaNew
+}
