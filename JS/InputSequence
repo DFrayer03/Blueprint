@@ -221,67 +221,67 @@ const name = document.querySelector("#sequence").value;
 
     while(loop===1){
         for(var x=0;x<chunks.length;x++){
-            if(chunks[x]===ttt||chunks[x]===ttc){
+            if(chunks[x]===aaa||chunks[x]===aag){
                 amino += " Phenylalanine, "
            }  
-            if(chunks[x]===tta||chunks[x]===ttg||chunks[x]===ctt||chunks[x]===ctc||chunks[x]===cta||chunks[x]===ctg){
+            if(chunks[x]===aat||chunks[x]===aac||chunks[x]===gaa||chunks[x]===gag||chunks[x]===gat||chunks[x]===gac){
                amino += " Leucine, "
            } 
-           if(chunks[x]===att||chunks[x]===atc||chunks[x]===ata){
+           if(chunks[x]===taa||chunks[x]===tag||chunks[x]===tat){
                amino += " Isoleucine, "
            }
-            if(chunks[x]===atg){
+            if(chunks[x]===tac){
                amino += " Methionine, "
            }
-           if(chunks[x]===gtt||chunks[x]===gtc||chunks[x]===gta||chunks[x]===gtg){
+           if(chunks[x]===caa||chunks[x]===cag||chunks[x]===cat||chunks[x]===cac){
                amino += " Valine, "
            }
-           if(chunks[x]==tct||chunks[x]===tcc||chunks[x]===tca||chunks[x]===tcg||chunks[x]===agt||chunks[x]===agc){
+           if(chunks[x]==aga||chunks[x]===agg||chunks[x]===agt||chunks[x]===agc||chunks[x]===tca||chunks[x]===tcg){
                amino += " Serine, "    
            }
-           if(chunks[x]===cct||chunks[x]===ccc||chunks[x]===cca||chunks[x]===ccg){
+           if(chunks[x]===gga||chunks[x]===ggg||chunks[x]===ggt||chunks[x]===ggc){
                amino += "Proine, "
            }
-           if(chunks[x]===act||chunks[x]===acc||chunks[x]===aca||chunks[x]===acg){
+           if(chunks[x]===tga||chunks[x]===tgg||chunks[x]===tgt||chunks[x]===tgc){
                amino += " Threonine, "    
            }
-           if(chunks[x]===gct||chunks[x]===gcc||chunks[x]===gca||chunks[x]===gcg){
+           if(chunks[x]===cga||chunks[x]===cgg||chunks[x]===cgt||chunks[x]===cgc){
                amino += " Alanine, "
            }
-           if(chunks[x]===tat||chunks[x]===tac){
+           if(chunks[x]===ata||chunks[x]===atg){
                amino += " Tyrosine, "
            }
-           if(chunks[x]===cat||chunks[x]===cac){
+           if(chunks[x]===gta||chunks[x]===gtg){
                amino += " Histidine, "   
            }
-           if(chunks[x]===caa||chunks[x]===cag){
+           if(chunks[x]===gtt||chunks[x]===gtc){
                amino += " Glutamine, "
            }    
-           if(chunks[x]===aat||chunks[x]===aac){
+           if(chunks[x]===tta||chunks[x]===ttg){
                amino += " Asparagine, "
            }
-           if(chunks[x]===aaa||chunks[x]===aag){
+           if(chunks[x]===ttt||chunks[x]===ttc){
                amino += " Lysine, "
            }
-           if(chunks[x]===gat||chunks[x]===gac){
+           if(chunks[x]===cta||chunks[x]===ctg){
                amino += " Aspartate, "
            }
-           if(chunks[x]===gaa||chunks[x]===gag){
+           if(chunks[x]===ctt||chunks[x]===ctc){
                amino += " Glutamic, "
            }
-           if(chunks[x]===tgt||chunks[x]===tgc){
+           if(chunks[x]===aca||chunks[x]===acg){
                amino += " Cysteine, "
            }
-           if(chunks[x]===tgg){
+           if(chunks[x]===acc){
                amino += " Tryptophan, "
            }
-           if(chunks[x]===cgt||chunks[x]===cgc||chunks[x]===cga||chunks[x]===cgg||chunks[x]===aga||chunks[x]===agg){
+           if(chunks[x]===gca||chunks[x]===gcg||chunks[x]===gct||chunks[x]===gcc||chunks[x]===tct||chunks[x]===tcc){
                amino += " Arginine, "
            }
-           if(chunks[x]===ggt||chunks[x]===ggc||chunks[x]===gga||chunks[x]===ggg){
+           if(chunks[x]===cca||chunks[x]===ccg||chunks[x]===cct||chunks[x]===ccc){
                amino += " Glycine, "
            }
-           if(chunks[x]===taa||chunks[x]===tag||chunks[x]===tga){
+           if(chunks[x]===att||chunks[x]===atc||chunks[x]===act){
                loop = 0;
            }
         }
