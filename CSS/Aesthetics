@@ -19,7 +19,7 @@
     margin-bottom: 45px;
  }
 
- .dog-input{
+ .sequence-input{
      width: 100%;
      font-size: 25px;
      outline:none;
