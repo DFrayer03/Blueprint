@@ -58,9 +58,9 @@
     <div class="input-button">
         <input class="sequence-input" id="sequence" />
         <div class="button-container">
-            <button class="to-rna" onclick="translateRNA()">To RNA</button>
-            <button class="to-dna" onclick="translateDNA()">To DNA</button>
-            <button class="to-amino" onclick="translateAmino()">To Amino Acid</button>
+            <button class="to-rna" onclick="validateInput()">To RNA</button>
+            <button class="to-dna" onclick="validateInput()">To DNA</button>
+            <button class="to-amino" onclick="validateInput()">To Amino Acid</button>
         </div>
 
         <script src="InputSequence.js"></script>
