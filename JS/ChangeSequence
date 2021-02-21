@@ -1,0 +1,40 @@
+ function translateRNA() {
+     const dna = document.querySelector("#sequence").value;
+   let rna = ""
+     for(let index = 0; index < index.length; index++)
+    {
+        if(dna[index] === "A")
+        {
+            rna += "A"
+        }
+        if(dna[index] === "C")
+        {
+            rna += "C" 
+        }
+        if(dna[index] === "T")
+        {
+            rna += "U"
+        }
+        if(dna[index] === "G")
+        {
+            rna += "G"
+        }
+        if(dna[index] === "a")
+        {
+            rna += "a"
+        }
+        if(dna[index] === "c")
+        {
+            rna += "c"
+        }
+        if(dna[index] === "t")
+        {
+            rna += "u"
+        }
+        if(dna[index] === "g")
+        {
+            rna += "g"
+        }
+    }
+    return rna
+ }
