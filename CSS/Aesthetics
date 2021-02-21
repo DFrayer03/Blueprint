@@ -6,6 +6,8 @@
 }
 .title{
     font-size: 60px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
     letter-spacing: 1px;
     padding: 50px;
     text-align: center;
@@ -16,8 +18,7 @@
     font-size: 25px;
     outline: none;
     text-align: center;
-    font-family: "Monospace";
-    font-name: "Lucida Console";
+    font-family: "Raleway";
     padding: 10px;
     border: none;
     border-radius: 40px;
