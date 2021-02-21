@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    
 
 <head>
     <title>DNA Translator</title>
@@ -14,7 +15,7 @@
 
     .topnav {
         overflow: hidden;
-        background-color: #3f454b;
+        background-color: #708090;
     }
 
     .topnav a {
@@ -53,7 +54,7 @@
     <div id="body-content"></div>
     <div class="title"><b>DNA Translator</b></div>
     <div class="subtitle">
-        <h3><b>Translate any DNA into your desired form.</b></h3>
+        <h3><b>Translate your DNA into any form.</b></h3>
     </div>
     <div style="text-align: center"> 
         <input class="sequence-input" id="sequence" />
@@ -63,11 +64,14 @@
     <div class="button-container">
  
             <button class="to-rna" onclick="translateRNA()">To RNA</button>
-            <button class="to-dna" onclick="translateDNA()">To Complementary DNA</button>
-            <button class="to-amino" onclick="GetAmino()">To Amino Acid</button>
+            <button class="to-dna" onclick="translateDNA()">To DNA</button>
+            <button class="to-amino" onclick="getAmino()">To Amino Acid</button>
 
 
     </div>
+
+    <p id="example"></p>
+   
 
     <script src="InputSequence.js"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
@@ -75,16 +79,16 @@
 <script>
 VANTA.NET({
   el: "#body-content",
-  mouseControls: false,
-  touchControls: true,
+  mouseControls: true,
+  touchControls: true, 
   gyroControls: false,
   minHeight: 200.00,
   minWidth: 200.00,
   scale: 1.00,
-  scaleMobile: 1.00,
-  maxDistance: 19.00
+  scaleMobile: 1.00
 })
 </script>
+
 </body>
 
 </html>
