@@ -1,7 +1,7 @@
 function translateDNA() {
     const dna = document.querySelector("#sequence").value;
   let dnaNew = ""
-    for(let index = 0; index < index.length; index++)
+    for(let index = 0; index < dnaNew.length; index++)
    {
        if(dna[index] === "A")
        {
