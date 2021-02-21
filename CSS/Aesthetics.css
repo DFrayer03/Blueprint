@@ -1,8 +1,17 @@
-.body-content {
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #23153c;
+}
+
+#body-content{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 30px;
+    align-items: center; 
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
 }
 
 .title {
