@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <title>DNA Translator</title>
-   <link type="text/css" href="index.css" rel="stylesheet" />
- </head>
- <body>
-   <div class="body-content">
-     <div class="title">DNA Translator</div>
-     <div>
-       <input class="sequence-input" id="sequence"/>
-       <button class="to-rna" onclick="translateRNA()">To RNA</button>
-     </div>
-     <div class="button-container">
-       <button class="to-dna" onclick="translateDNA()">To DNA</button>
-       <button class="to-amino" onclick="translateAmino()">To Amino Acid Sequence</button>
-     </div>
-   </div>
- </body>
+
+<head>
+    <title>DNA Translator</title>
+    <link type="text/css" href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="body-content">
+        <div class="title">DNA Translator</div>
+        <div>
+            <input class="sequence-input" id="sequence"/>
+        </div>
+        <div class="button-container">
+            <button class="to-rna" onclick="translateRNA()">To RNA</button>
+            <button class="to-dna" onclick="translateDNA()">To DNA</button>
+            <button class="to-amino" onclick="translateAmino()">To Amino Acid Sequence</button>
+        </div>
+    </div>
+</body>
+
 </html>
 
 <script src="index.js"></script>
