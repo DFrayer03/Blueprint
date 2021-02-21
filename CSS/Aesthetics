@@ -1,16 +1,24 @@
+  
 .body-content{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 35px;
+    padding: 30px;
 }
 .title{
     font-size: 60px;
     letter-spacing: 1px;
-    padding: 50px;
+    padding: 1px;
     text-align: center;
     font-family: "Monospace";
+}
 
+.subtitle{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "Monospace";
+    padding: 5px;
 }
 
 .sequence-input{
@@ -19,9 +27,9 @@
     outline: none;
     text-align: center;
     font-family: "Monospace";
-    padding: 17px;
+    padding: 10px;
     border: none;
-    border-radius: 30px;
+    border-radius: 25px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     margin-right: 30px;
 }
