@@ -6,11 +6,11 @@
 }
 .title{
     font-size: 60px;
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-weight: bold;
     letter-spacing: 1px;
     padding: 50px;
     text-align: center;
+    font-family: "Monospace";
+
 }
 
 .sequence-input{
@@ -18,11 +18,12 @@
     font-size: 25px;
     outline: none;
     text-align: center;
-    font-family: "Raleway";
-    padding: 10px;
+    font-family: "Monospace";
+    padding: 17px;
     border: none;
-    border-radius: 40px;
+    border-radius: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    margin-right: 30px;
 }
 
 .button-container{
@@ -33,28 +34,31 @@
 
 .to-rna{
     background-color: #3AAFA9;
-    padding: 15px;
+    padding: 17px 25px;
     color: #17252A;
-    border-radius: 75px;
-    margin-right: 10px;
-    margin-left: 10px;
+    border-radius: 25px;
+    margin-right: 8px;
+
 }
 
 .to-dna{
     background-color: #3AAFA9;
-    padding: 15px;
+    padding: 17px 25px;
     color: #17252A;
-    border-radius: 75px;
-    margin-right: 10px;
-    margin-left: 10px;
+    border-radius: 25px;
+    margin-right: 8px;
+    margin-left: 8px;
 }
 
 .to-amino{
     background-color: #3AAFA9;
-    padding: 15px;
+    padding: 17px 21px;
     color: #17252A;
-    border-radius: 75px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 8px;
+    border-radius: 25px;
 
+}
+.input-button{
+    display: flex;
+    flex-direction: row;
 }
