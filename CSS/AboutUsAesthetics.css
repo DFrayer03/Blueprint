@@ -4,10 +4,99 @@
     padding: 20px;
     text-align: center;
     font-family: "Monospace";
+    color: #ffffff;
 }
 
-.paragraph{
-    font-size: 30px;
+.ryan{
+    display: flex;
+    flex-direction: row;
+    transform: translate(30%);
+    font-size: 20px;
     letter-spacing: 1px;
+    margin-right: 10px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.ryan-text{
+    justify-content: center;
     text-align: center;
+    color: #ffffff;
+    margin-left: 60px;
+    
+}
+.joel{
+    display: flex;
+    flex-direction: row;
+    transform: translate(30%);
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    color: #ffffff;
+    margin-bottom: 15px;
+
+}
+
+.joel-text{
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 60px;
+
+}
+
+.dietrich{
+    display: flex;
+    flex-direction: row;
+    transform: translate(30%);
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    color: #ffffff; 
+    margin-bottom: 15px;
+}
+
+.dietrich-text{
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 60px;
+
+}
+
+.om{
+    display: flex;
+    flex-direction: row;
+    transform: translate(30%);
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    color: #ffffff; 
+    margin-bottom: 15px;
+}
+
+.om-text{
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 60px;
+
+}
+
+.kevin{
+    display: flex;
+    flex-direction: row;
+    transform: translate(30%);
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    color: #ffffff; 
+    margin-bottom: 15px;
+}
+
+.kevin-text{
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 60px;
 }
