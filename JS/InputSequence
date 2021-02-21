@@ -62,36 +62,36 @@ function translateRNA() {
     {
         if(dna[i] === "A")
         {
-            rna += "A"
+            rna += "U"
             
         }
         if(dna[i] === "C")
         {
-            rna += "C" 
+            rna += "G" 
         }
         if(dna[i] === "T")
         {
-            rna += "U"
+            rna += "A"
         }
         if(dna[i] === "G")
         {
-            rna += "G"
+            rna += "C"
         }
         if(dna[i] === "a")
         {
-            rna += "a"
+            rna += "U"
         }
         if(dna[i] === "c")
         {
-            rna += "c"
+            rna += "G"
         }
         if(dna[i] === "t")
         {
-            rna += "u"
+            rna += "A"
         }
         if(dna[i] === "g")
         {
-            rna += "g"
+            rna += "C"
         }
     }
     document.getElementById("example").innerHTML = rna
