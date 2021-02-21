@@ -1,4 +1,3 @@
-//Input from the search bar comes here
 function validateInput () { 
     const name = document.querySelector("#sequence").value;
      let valid = false
@@ -205,18 +204,19 @@ function getAmino() {
     const string = name;
        let amino = ""
     let seq = string.toLowerCase()
+    let chunks = [];
     if(seq.length%3===0){
-       let chunks = [];
+       
        let charsLength = seq.length;
+       
        for (let i = 0;  i < charsLength; i += 3) {
            chunks.push(seq.substring(i, i + 3));
            
        }
    
      let pool = 1
-     while(pool===1){
-
-   for(var x=0;x<chunks.length;x++){
+    while(pool===1){
+   for(let x=0; x<chunks.length; x++){
     
     if(chunks[x]==="aaa"||chunks[x]==="aag"){
         amino += "Phenylalanine, "
@@ -281,10 +281,10 @@ function getAmino() {
    else if(chunks[x]==="att"||chunks[x]==="atc"||chunks[x]==="act"){
        pool = 0;
         }
-        }
-     }
+    }
+ }
 
-   }
+}
        else {
            alert("Your DNA strand does not have a multiple of 3 and cannot be translated.")
        }
