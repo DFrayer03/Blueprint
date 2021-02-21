@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Dog Generator :)</title>
+   <link type="text/css" href="index.css" rel="stylesheet" />
+ </head>
+ <body>
+   <div class="body-content">
+     <div class="title">Dog Generator</div>
+     <div class="image" id="dog-image"></div>
+     <div>
+       <input class="dog-input" id="dog-name"/>
+     </div>
+     <div class="button-container">
+       <button class="submit" onclick="getSpecificImage()">Find Specific Dog Breed!</button>
+       <button class="random" onclick="getRandomImage()">Find Random Dog!</button>
+     </div>
+   </div>
+ </body>
+</html>
+
+<script src="index.js"></script>
