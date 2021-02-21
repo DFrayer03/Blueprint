@@ -1,3 +1,7 @@
+.body{
+    width: 100%;
+}
+
 .text {
     font-size: 60px;
     letter-spacing: 1px;
@@ -13,17 +17,16 @@
     transform: translate(30%);
     font-size: 20px;
     letter-spacing: 1px;
-    margin-right: 10px;
     color: #ffffff;
     margin-bottom: 15px;
+    width: 80%;
 }
 
 .ryan-text{
     justify-content: center;
     text-align: center;
     color: #ffffff;
-    margin-left: 60px;
-    
+    width: 55%;
 }
 .joel{
     display: flex;
@@ -31,9 +34,9 @@
     transform: translate(30%);
     font-size: 20px;
     letter-spacing: 1px;
-    margin-right: 10px;
     color: #ffffff;
     margin-bottom: 15px;
+    width: 80%;
 
 }
 
@@ -41,8 +44,7 @@
     justify-content: center;
     text-align: center;
     color: #ffffff;
-    margin-left: 60px;
-
+    width: 55%;
 }
 
 .dietrich{
@@ -51,16 +53,16 @@
     transform: translate(30%);
     font-size: 20px;
     letter-spacing: 1px;
-    margin-right: 10px;
     color: #ffffff; 
     margin-bottom: 15px;
+    width: 80%;
 }
 
 .dietrich-text{
     justify-content: center;
     text-align: center;
     color: #ffffff;
-    margin-left: 60px;
+    width: 55%;
 
 }
 
@@ -70,17 +72,17 @@
     transform: translate(30%);
     font-size: 20px;
     letter-spacing: 1px;
-    margin-right: 10px;
+
     color: #ffffff; 
     margin-bottom: 15px;
+    width: 80%;
 }
 
 .om-text{
     justify-content: center;
     text-align: center;
     color: #ffffff;
-    margin-left: 60px;
-
+    width: 55%;
 }
 
 .kevin{
@@ -89,14 +91,15 @@
     transform: translate(30%);
     font-size: 20px;
     letter-spacing: 1px;
-    margin-right: 10px;
+
     color: #ffffff; 
     margin-bottom: 15px;
+    width: 80%;
 }
 
 .kevin-text{
     justify-content: center;
     text-align: center;
     color: #ffffff;
-    margin-left: 60px;
+    width: 55%;
 }
