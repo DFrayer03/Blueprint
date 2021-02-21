@@ -9,11 +9,11 @@
      <div class="title">DNA Translator</div>
      <div>
        <input class="sequence-input" id="sequence"/>
-       <button class="translate" onclick="translate()">To RNA</button>
+       <button class="to-rna" onclick="translateRNA()">To RNA</button>
      </div>
      <div class="button-container">
-       <button class="random" onclick="getRandomImage()">To DNA</button>
-       <button class="random" onclick="getRandomImage()">To Amino Acid Sequence</button>
+       <button class="to-dna" onclick="translateDNA()">To DNA</button>
+       <button class="to-amino" onclick="translateAmino()">To Amino Acid Sequence</button>
      </div>
    </div>
  </body>
