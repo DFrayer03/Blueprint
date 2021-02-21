@@ -105,3 +105,92 @@ function translateDNA() {
    }
    return dnaNew
 }
+
+
+
+function GetAmino () { 
+ const string = document.querySelector("#sequence").value;
+    var amino = ""
+ var seq = string.toLowerCase()
+ if(seq.length%3===0){
+    var chunks = [];
+
+    for (var i = 0, charsLength = seq.length; i < charsLength; i += 3) {
+        chunks.push(seq.substring(i, i + 3));
+        
+    }
+
+    while(loop===1){
+        for(var x=0;x<chunks.length;x++){
+            if(chunks[x]===ttt||chunks[x]===ttc){
+                amino += " Phenylalanine"
+           }  
+            if(chunks[x]===tta||chunks[x]===ttg||chunks[x]===ctt||chunks[x]===ctc||chunks[x]===cta||chunks[x]===ctg){
+               amino += " Leucine"
+           } 
+           if(chunks[x]===att||chunks[x]===atc||chunks[x]===ata){
+               amino += " Isoleucine"
+           }
+            if(chunks[x]===atg){
+               amino += " Methionine"
+           }
+           if(chunks[x]===gtt||chunks[x]===gtc||chunks[x]===gta||chunks[x]===gtg){
+               amino += " Valine"
+           }
+           if(chunks[x]==tct||chunks[x]===tcc||chunks[x]===tca||chunks[x]===tcg||chunks[x]===agt||chunks[x]===agc){
+               amino += " Serine"    
+           }
+           if(chunks[x]===cct||chunks[x]===ccc||chunks[x]===cca||chunks[x]===ccg){
+               amino += "Proine"
+           }
+           if(chunks[x]===act||chunks[x]===acc||chunks[x]===aca||chunks[x]===acg){
+               amino += " Threonine"    
+           }
+           if(chunks[x]===gct||chunks[x]===gcc||chunks[x]===gca||chunks[x]===gcg){
+               amino += " Alanine"
+           }
+           if(chunks[x]===tat||chunks[x]===tac){
+               amino += " Tyrosine"
+           }
+           if(chunks[x]===cat||chunks[x]===cac){
+               amino += " Histidine"   
+           }
+           if(chunks[x]===caa||chunks[x]===cag){
+               amino += " Glutamine"
+           }    
+           if(chunks[x]===aat||chunks[x]===aac){
+               amino += " Asparagine"
+           }
+           if(chunks[x]===aaa||chunks[x]===aag){
+               amino += " Lysine"
+           }
+           if(chunks[x]===gat||chunks[x]===gac){
+               amino += " Aspartate"
+           }
+           if(chunks[x]===gaa||chunks[x]===gag){
+               amino += " Glutamic"
+           }
+           if(chunks[x]===tgt||chunks[x]===tgc){
+               amino += " Cysteine"
+           }
+           if(chunks[x]===tgg){
+               amino += " Tryptophan"
+           }
+           if(chunks[x]===cgt||chunks[x]===cgc||chunks[x]===cga||chunks[x]===cgg||chunks[x]===aga||chunks[x]===agg){
+               amino += " Arginine"
+           }
+           if(chunks[x]===ggt||chunks[x]===ggc||chunks[x]===gga||chunks[x]===ggg){
+               amino += " Glycine"
+           }
+           if(chunks[x]===taa||chunks[x]===tag||chunks[x]===tga){
+               loop = 0;
+           }
+        }
+    }
+    
+}
+    else{
+        alert("Your DNA strand does not have a multiple of 3 and cannot be translated.")
+    }
+    return amino
+}
