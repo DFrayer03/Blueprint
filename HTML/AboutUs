@@ -28,7 +28,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #3AAFA9;
   color: white;
 }
 </style>
@@ -36,14 +36,13 @@ body {
 <body>
 
 <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a class="active" href="BasicOutline.html">Home</a>
+  <a href="AboutUs.html">About Us</a>
+
 </div>
 
 <div style="padding-left:16px">
-  <h2>Top Navigation Example</h2>
+  <h2>This is the about us page</h2>
   <p>Some content..</p>
 </div>
 
