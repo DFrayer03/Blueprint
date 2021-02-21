@@ -16,7 +16,8 @@
     font-size: 25px;
     outline: none;
     text-align: center;
-    font-family: "Raleway";
+    font-family: "Monospace";
+    font-name: "Lucida Console";
     padding: 10px;
     border: none;
     border-radius: 40px;
