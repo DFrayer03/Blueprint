@@ -10,6 +10,7 @@
 
     <div class="body-content">
         <div class="title">DNA Translator</div>
+        <div class="subtitle"><h3>Translate your DNA or RNA into any form.</h3></div>
         <div class="input-button">
             <input class="sequence-input" id="sequence" />
             <div class="button-container">
