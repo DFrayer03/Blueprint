@@ -7,12 +7,11 @@
  <body>
    <div class="body-content">
      <div class="title">DNA Translator</div>
-     <div class="image" id="dog-image"></div>
      <div>
-       <input class="dog-input" id="dog-name"/>
+       <input class="sequence-input" id="sequence"/>
+       <button class="translate" onclick="translate()">To RNA</button>
      </div>
      <div class="button-container">
-       <button class="submit" onclick="getSpecificImage()">To RNA</button>
        <button class="random" onclick="getRandomImage()">To DNA</button>
        <button class="random" onclick="getRandomImage()">To Amino Acid Sequence</button>
      </div>
